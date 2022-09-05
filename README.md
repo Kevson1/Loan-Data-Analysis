@@ -40,7 +40,7 @@
 > - There exist a positive correlation between stated monthly income and montly loan payment.
 > - There exist a positive correlation between stated monthly income and borrower's credit score.
 > - There exist a positive correlation between monthly loan payment and credit score.
-
+#
 
 # Running the Project
 
