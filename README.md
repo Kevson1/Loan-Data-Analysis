@@ -40,3 +40,29 @@
 > - There exist a positive correlation between stated monthly income and montly loan payment.
 > - There exist a positive correlation between stated monthly income and borrower's credit score.
 > - There exist a positive correlation between monthly loan payment and credit score.
+
+
+# Running the Project
+
+#
+## Prerequisites
+- Conda environment
+- pip
+- python 3
+- jupyter notebook
+#
+
+## Cloning
+Open Terminal and run the commands below:
+
+- `git clone https://github.com/Kevson1/Loan-Data-Analysis`
+#
+## Running the Notebook
+After cloning the repository, run the commands below:
+- `cd Loan-Data-Analysis`
+- `conda env create -f environment.yaml` (For the conda environment)
+- `pip install -r requirements.txt` (For the pip environment)
+- `conda activate loans`
+- `jupyter notebook`
+
+This should open the `jupyter notebook` in the browser. Click on the respective notebook file to open.
