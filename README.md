@@ -1,10 +1,8 @@
-# WeRateDogs Tweets Analysis
-
-# Author
-Built by : Kelvin Njuguna Kimani
+# Exploration of the Prosper Loan Data
+## by Kelvin Kimani
 
 
-# Description
+## Dataset
 
 > The Loan data from prosper contains a total of 113,937 loan records, each with a total of 81 variables. Due to the bulk nature of the dataset, for this Exploratory exercise, only 15 loan variables will be considered. they include:
 >> 1. **Term:** The length of the loan expressed in months.
@@ -24,25 +22,21 @@ Built by : Kelvin Njuguna Kimani
 
 > The cleaned data consisted of Loan borrower information of 83,507 loan borrowers, with each entry having 15 attributes. 
 
-#
-# Prerequisites
-- Conda environment
-- pip
-- python 3
-- jupyter notebook
-#
 
-# Cloning
-Open Terminal and run the commands below:
+## Summary of Findings
 
-- `git clone https://github.com/Kevson1/Loan-Data-Analysis`
-#
-# Running the Notebook
-After cloning the repository, run the commands below:
-- `cd Twitter-archive`
-- `conda env create -f environment.yaml` (For the conda environment)
-- `pip install -r requirements.txt` (For the pip environment)
-- `conda activate loans`
-- `jupyter notebook`
+### Findings:
+> 1. About 90.4% of the Borrowers were Employed, 5.4% were self-employed, 3% listed their emloyment status as `Other`, 0.8% were unemployed and 0.4% were retired.
+> 2. About 52% of the borrowers were home owners while about 48% did not own a home.
+> 3. The distribution of montly incomes is right tailed
+> 4. The distribution of Loan original amount is right tailed.
+> 5. There exist a positive correlation between stated monthly income and montly loan payment.
+> 6. There exist a positive correlation between stated monthly income and borrower's credit score.
+> 7. There exist a positive correlation between monthly loan payment and credit score.
 
-This should open the `jupyter notebook` in the browser. Click on the respective notebook file to open.
+
+## Key Insights for Presentation
+
+> - There exist a positive correlation between stated monthly income and montly loan payment.
+> - There exist a positive correlation between stated monthly income and borrower's credit score.
+> - There exist a positive correlation between monthly loan payment and credit score.
